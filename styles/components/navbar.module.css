@@ -1,0 +1,38 @@
+.navbarFixed{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    border-bottom: 1px solid #EEE;
+    z-index: 1;
+}
+
+.logoBorder h1{
+    border: 3px solid #34437A;
+    display: inline-block;
+    padding-top: -5px;
+    padding-left: 3px;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    box-shadow: -2px 2px 0px 0px;
+}
+.logoBorder span{
+    display:block;
+    font-size: 5px;
+    margin-top: -16px;
+    margin-bottom:-12px; 
+    padding-right: 2px;
+    color:rgb(202, 156, 3);
+}
+
+.profileLogo{
+    border:1px solid #EEE;
+    border-radius:50%;
+    padding: 4px 4px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+
+}

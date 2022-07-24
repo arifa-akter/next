@@ -1,0 +1,92 @@
+.contactBannerBackground{
+    background: url('../../public/images/contact3.jpg') no-repeat center;
+    background-size: cover;
+    padding-top:280px;
+    padding-bottom: 150px;
+    position: relative;
+    z-index: -1;
+}
+.contactBannerBackground::after{
+    position: absolute;
+    content:'';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left:0;
+    background: rgba(255, 255, 255, 0.274);
+    z-index: -1;
+    clip-path: polygon(0 0, 15% 0, 100% 100%, 0% 100%);
+
+}
+
+.contactInfo{
+  background:#34437A;
+  height:600px;
+  width:400px;
+  border-radius: 15px;
+  margin-top: 20px;
+  position: relative;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.contactInfo::after{
+    position: absolute;
+    content:'';
+    width: 100px;
+    height: 100px;
+    right: 0;
+    bottom:0;
+    background: #7E96EF;
+}
+.contactInfo::before{
+    position: absolute;
+    content: '';
+    width: 80px;
+    height: 80px;
+    right: 39px;
+    bottom: 40px;
+    background: #7E96EF;
+    z-index: 1;
+}
+
+.icon p{
+    font-size: 16px;
+    padding: 10px 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid #ffff;
+    margin-right: 25px;
+}
+.contactForm label {
+    display: block;
+    font-size: 16px;
+   font-weight: bold;
+  color :#7E96EF;
+   margin-bottom: 15px;
+}
+
+.contactForm input {
+    width : 70%;
+    border-bottom: 1px solid gray;
+}
+.contactForm textarea {
+    width : 70%;
+    height: 100%;
+    border: 1px solid gray;
+}
+
+.contactForm button{
+    padding: 10px 20px;
+   background:#34437A;
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+    color:#ffffff;
+}

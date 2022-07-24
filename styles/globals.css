@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 html,
 body {
   padding: 0;
@@ -5,6 +8,26 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
+/* ---- logo style ----- */
+.logoBorder h1{
+  border: 3px solid #34437A;
+  display: inline-block;
+  padding-top: -5px;
+  padding-left: 3px;
+  padding-bottom: 2px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  box-shadow: -2px 2px 0px 0px;
+}
+.logoBorder span{
+  display:block;
+  font-size: 5px;
+  margin-top: -16px;
+  margin-bottom:-12px; 
+  padding-right: 2px;
+  color:rgb(202, 156, 3);
+}
+
 
 a {
   color: inherit;

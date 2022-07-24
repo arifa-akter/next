@@ -1,0 +1,34 @@
+.logoBorder h1{
+    border: 3px solid white;
+    display: inline-block;
+    padding-top: -5px;
+    padding-left: 3px;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    box-shadow: -2px 2px 0px 0px;
+}
+.logoBorder span{
+    display:block;
+    font-size: 5px;
+    margin-top: -16px;
+    margin-bottom:-12px; 
+    padding-right: 2px;
+    color:white;
+}
+.logoBorder{
+    margin-top:9px;
+    margin-bottom:15px;
+}
+
+.logoBorder li:hover{
+    padding: 5px 16px;
+    background: #7E96EF;
+    color:white;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
